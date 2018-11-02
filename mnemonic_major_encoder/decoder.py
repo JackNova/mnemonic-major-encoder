@@ -5,9 +5,11 @@ from mnemonic_major_encoder.encoder import encode
 from collections import defaultdict
 import sys
 import json
+import os
 
-WORDS_DICTIONARY_PATH = 'dictionaries/italungo.txt'
-CACHED_ENCODED_WORDS = 'dictionaries/italungo-encoded.txt'
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+WORDS_DICTIONARY_PATH = os.path.join(BASE_PATH, 'dictionaries/italungo.txt')
+CACHED_ENCODED_WORDS = os.path.join(BASE_PATH, 'dictionaries/italungo-encoded.txt')
 ENCODED_WORDS = defaultdict(list)
 
 try:
