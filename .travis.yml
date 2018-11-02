@@ -13,5 +13,5 @@ deploy:
     secure: l3kgNs02s8htLhYjI0kyxorOZe/O6I+nYxAGAYcrTykh5aoQVwunvi3Fz7zTF5FZvBbrI0jtI5BPKABrpjXdQKc8WYWOMXMl7iCjHOeJdZaVCJGqd9kDh3dBsvsKQHm7jIa/hWvd+3uIsj15z7zMVDPp80mDd2SXvpqODkL9H8efXoD5BlJibgh4lWeyRk8J+l+hJz4Y1aHMFbcOwKvcQM6AwU9RVzBjV8OAmui+Ezwwchm3ZDq2XyY+lf3esD/PxfYxk+ItQcqgvvSNVI0EoSbee18/l4ZnR/TZh3j6ndMvRfsPTNsg5uksyZgJMo/C2W7Ga9I/pMWOVO3uEyJykvTlPClogAC1e3D2ORyMqRxDKBWeuWn+qAMRg5aakgvHGWD8hOTqwsewnpuhdArxDPgz+WCbh5+cBBfx0sjnFijmR9BdXHZLjX1IbFV+FHSfHv4Uog+g/HXKmHD554llZCeQeOs/nsODN66r4sRtmnPJnEnD8hvnnXcrl1v0pgoXcBWk5lyxsKsCZ9rSBB4ngHhpSgDq2Wtug2owHORWt91ZbwT9pU4JbzOuyIF6te8xdO3BktuncV1XO60UaoDpq4dYGkkIirsn0ZwBCZk3D2f/hrORwVNduLFw4JtZCyU2uVoKS9LsTQIml+CmJYHhsOnG2vNYks3Q7nk67xau4JE=
   on:
     tags: true
-    repo: JackNova/mnemonic_major_encoder
+    repo: JackNova/mnemonic-major-encoder
     python: 3.6

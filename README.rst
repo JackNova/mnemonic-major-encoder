@@ -3,10 +3,10 @@ Mnemonic Major Encoder
 ======================
 
 
-.. image:: https://img.shields.io/pypi/v/mnemonic_major_encoder.svg
-        :target: https://pypi.python.org/pypi/mnemonic_major_encoder
+.. image:: https://img.shields.io/pypi/v/mnemonic-major-encoder.svg
+        :target: https://pypi.python.org/pypi/mnemonic-major-encoder
 
-.. image:: https://img.shields.io/travis/JackNova/mnemonic_major_encoder.svg
+.. image:: https://img.shields.io/travis/JackNova/mnemonic-major-encoder.svg
         :target: https://travis-ci.org/JackNova/mnemonic-major-encoder
 
 .. image:: https://readthedocs.org/projects/mnemonic-major-encoder/badge/?version=latest
