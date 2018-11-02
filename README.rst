@@ -7,7 +7,7 @@ Mnemonic Major Encoder
         :target: https://pypi.python.org/pypi/mnemonic_major_encoder
 
 .. image:: https://img.shields.io/travis/JackNova/mnemonic_major_encoder.svg
-        :target: https://travis-ci.org/JackNova/mnemonic_major_encoder
+        :target: https://travis-ci.org/JackNova/mnemonic-major-encoder
 
 .. image:: https://readthedocs.org/projects/mnemonic-major-encoder/badge/?version=latest
         :target: https://mnemonic-major-encoder.readthedocs.io/en/latest/?badge=latest
