@@ -44,7 +44,4 @@ if not ENCODED_WORDS:
 
 def decode(number):
     words = ENCODED_WORDS.get(number)
-    if words:
-        for word in words:
-            print(word)
     return words

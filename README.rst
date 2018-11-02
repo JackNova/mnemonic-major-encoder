@@ -26,7 +26,20 @@ Encode and Decode text by the Major System
 Features
 --------
 
-* TODO
+* encode text by the mnemonic major system
+* decode a number into a word according to the mnemonic major system
+
+Usage
+-----
+
+>>> from mnemonic_major_encoder import encoder
+>>> encoder.encode("dario")
+'14'
+
+>>> from mnemonic_major_encoder import decoder
+>>> decoder.decode("23095")
+['inammissibile', 'inammissibili', 'inammissible']
+
 
 Credits
 -------
