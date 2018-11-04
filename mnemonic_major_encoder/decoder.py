@@ -9,7 +9,8 @@ import os
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 WORDS_DICTIONARY_PATH = os.path.join(BASE_PATH, 'dictionaries/italungo.txt')
-CACHED_ENCODED_WORDS = os.path.join(BASE_PATH, 'dictionaries/italungo-encoded.txt')
+CACHED_ENCODED_WORDS = os.path.join(
+    BASE_PATH, 'dictionaries/italungo-encoded.txt')
 ENCODED_WORDS = defaultdict(list)
 
 try:
@@ -35,7 +36,7 @@ if not ENCODED_WORDS:
                 if number:
                     ENCODED_WORDS[number].append(word)
                 else:
-                    print("can't encode "+ word)
+                    print("can't encode " + word)
                 loaded_words += 1
                 if loaded_words % 10000 == 0:
                     print(f"{loaded_words}/{words_count}")

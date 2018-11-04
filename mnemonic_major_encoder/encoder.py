@@ -1,23 +1,23 @@
 import re
 from unidecode import unidecode
 from string import whitespace
-import codecs
 
 WHITESPACE = whitespace
 VOWELS = set('aeiouhy')
 BUFFER_SIZE = 10
 CODES = [re.compile(pattern) for pattern in [
-    "sc[ei]|ss?|zz?", # 0
-    "tt?|dd?", # # 1
-    "nn|g?n", # 2
-    "mm?", # 3
-    "rr?", # 4
-    "ll|g?l", # 5
-    "(cc?|gg?)[ei]|j", # 6
-    "c[khq]|cc?|gg?|qq?|kk?", # 7
-    "ff?|vv?", # 8
-    "pp?|bb?" # 9
+    "sc[ei]|ss?|zz?",
+    "tt?|dd?",
+    "nn|g?n",
+    "mm?",
+    "rr?",
+    "ll|g?l",
+    "(cc?|gg?)[ei]|j",
+    "c[khq]|cc?|gg?|qq?|kk?",
+    "ff?|vv?",
+    "pp?|bb?"
 ]]
+
 
 def encode(text: str):
     rest = unidecode(text.lower())
